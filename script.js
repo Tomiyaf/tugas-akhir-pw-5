@@ -156,6 +156,7 @@ function evaluateExpression(chain) {
 
       expr.splice(i - 1, 3, result);
     } else {
+      i += 2;
     }
   }
 
